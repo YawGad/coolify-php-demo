@@ -33,7 +33,7 @@ $serverTime = date("Y-m-d H:i:s");
 <body>
     <div class="card">
         <h1><?= htmlspecialchars($appName) ?></h1>
-        <p>Successfully running PHP with Docker and Coolify!</p>
+        <p>Version 2.0 — Successfully updated through GitHub and Coolify!</p>
         <p><strong>PHP version:</strong> <?= htmlspecialchars($phpVersion) ?></p>
         <p><strong>Server time:</strong> <?= htmlspecialchars($serverTime) ?></p>
     </div>
